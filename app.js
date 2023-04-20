@@ -1,7 +1,7 @@
 const router = {
   "/": home,
   "/about": about,
-  "/contact": contact,
+  "/test": test,
 };
 
 function route() {
@@ -26,10 +26,10 @@ function about() {
   `;
 }
 
-function contact() {
+function test() {
   document.getElementById("content").innerHTML = `
-    <h1>Contact</h1>
-    <p>This is the contact page.</p>
+    <h1>Test</h1>
+    <p>This is the IQ test page.</p>
   `;
 }
 
