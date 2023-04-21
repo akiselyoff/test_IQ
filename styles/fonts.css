@@ -1,3 +1,4 @@
 * {
-  font-family: 'PT Serif', serif;
+  font-family: var(--prime-font-family);
+  color: var(--prime-font-color);
 }

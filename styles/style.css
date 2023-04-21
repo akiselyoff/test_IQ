@@ -1,4 +1,5 @@
-@import 'reset.css';
-@import 'fonts.css';
-@import '../components/burger/burger.css';
+@import './reset.css';
+@import './variables.css';
+@import './fonts.css';
+@import '../components/menu/menu.css';
 @import '../components/header/header.css';

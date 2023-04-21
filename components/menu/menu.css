@@ -5,7 +5,7 @@
   width: 24px;
   height: 16px;
   z-index: 1;
-  background-image: url("../../img/icons/burger.svg");
+  background-image: url('../../img/icons/burger.svg');
 }
 
 .menu-overlay {
@@ -15,7 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #181818;
+  background-color: var(--prime-bg-color);
   z-index: 1;
 }
 
@@ -30,18 +30,22 @@
 }
 .menu-list__item a {
   text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 .close-icon {
   display: block;
   position: absolute;
-  top: 2rem;
-  right: 2rem;
+  top: 18px;
+  right: 13px;
   width: 28px;
   height: 28px;
   cursor: pointer;
   z-index: 2;
-  background-image: url("../../img/icons/close.svg");
+  background-image: url('../../img/icons/close.svg');
 }
 
 .show {

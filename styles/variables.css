@@ -1,0 +1,7 @@
+:root {
+  --prime-font-family: 'PT Serif', serif;
+  --prime-font-color: #ffffff;
+  --accent-color: #ffc700;
+  --prime-bg-color: #181818;
+  --prime-bg-img: url('../img/hero/univers.jpg');
+}
