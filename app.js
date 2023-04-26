@@ -1,7 +1,9 @@
+import { home } from './views/home.js';
+
 const router = {
-  "/": home,
-  "/about": about,
-  "/test": test,
+  '/': home,
+  '/about': about,
+  '/test': test,
 };
 
 function route() {
@@ -12,26 +14,19 @@ function route() {
   }
 }
 
-function home() {
-  document.getElementById("content").innerHTML = `
-    <h1>Welcome to my SPA!</h1>
-    <p>This is the home page.</p>
-  `;
-}
-
 function about() {
-  document.getElementById("content").innerHTML = `
+  document.getElementById('content').innerHTML = `
     <h1>About</h1>
     <p>This is the about page.</p>
   `;
 }
 
 function test() {
-  document.getElementById("content").innerHTML = `
+  document.getElementById('content').innerHTML = `
     <h1>Test</h1>
     <p>This is the IQ test page.</p>
   `;
 }
 
-window.addEventListener("hashchange", route);
-window.addEventListener("DOMContentLoaded", route);
+window.addEventListener('hashchange', route);
+window.addEventListener('DOMContentLoaded', route);
